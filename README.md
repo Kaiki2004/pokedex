@@ -20,7 +20,7 @@ Este é um aplicativo React simples que permite aos usuários pesquisar informa�
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/pokedex-react-app.git](https://github.com/Kaiki2004/pokedex.git
+   git clone https://github.com/Kaiki2004/pokedex.git
    cd pokedex-react-app
 Instale as dependências:
    npm install
