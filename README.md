@@ -52,19 +52,7 @@ npm test
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-
-### Explicação do README.md
-
-1. **Título e Descrição**: Introduz o projeto e suas funcionalidades principais.
-2. **Estrutura do Projeto**: Descreve os arquivos principais e suas funções.
-3. **Como Executar o Projeto**: Passos para clonar, instalar dependências e rodar o projeto.
-4. **Dependências**: Lista as principais bibliotecas utilizadas.
-5. **Exemplo de Uso**: Explica como usar o aplicativo.
-6. **Testes**: Instruções para rodar os testes.
-7. **Contribuição**: Informações sobre como contribuir para o projeto.
-8. **Licença**: Informações sobre a licença do projeto.
-
-Esse `README.md` fornece uma visão geral do projeto e instruções claras para quem deseja utilizá-lo ou contribuir.
+-- Esse `README.md` fornece uma visão geral do projeto e instruções claras para quem deseja utilizá-lo ou contribuir.
