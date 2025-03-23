@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Pokedex React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um aplicativo React simples que permite aos usuários pesquisar informações sobre Pokémons, incluindo detalhes como nome, número, peso, altura, habilidades e cadeia evolutiva. O aplicativo utiliza a [PokeAPI](https://pokeapi.co/) para buscar os dados dos Pokémons.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Pesquisa de Pokémon**: Os usuários podem pesquisar um Pokémon pelo nome.
+- **Exibição de Detalhes**: O aplicativo exibe detalhes do Pokémon, incluindo imagem, nome, número, peso, altura e habilidades.
+- **Cadeia Evolutiva**: O aplicativo também exibe a cadeia evolutiva do Pokémon pesquisado.
 
-### `npm start`
+## Estrutura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **App.js**: Contém a lógica principal do aplicativo, incluindo a busca de dados da API e a renderização dos componentes.
+- **App.test.js**: Contém testes básicos para o componente `App`.
+- **style.css**: Contém os estilos CSS para o aplicativo.
+- **index.js**: Ponto de entrada do aplicativo React.
+- **index.css**: Contém estilos globais para o aplicativo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto
 
-### `npm test`
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Kaiki2004/pokedex.git
+   cd pokedex-react-app
+Instale as dependências:
+   npm install
+Inicie o servidor de desenvolvimento:
+npm start
+Abra o navegador:
+O aplicativo estará disponível em http://localhost:3000.
+Dependências
+React: Biblioteca JavaScript para construção de interfaces de usuário.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ReactDOM: Biblioteca para renderização de componentes React no DOM.
 
-### `npm run build`
+Fetch API: Utilizada para fazer requisições HTTP à PokeAPI.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Exemplo de Uso
+Pesquisar um Pokémon:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Digite o nome do Pokémon no campo de pesquisa e clique em "Buscar".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O aplicativo exibirá os detalhes do Pokémon, incluindo sua cadeia evolutiva.
 
-### `npm run eject`
+Exemplo de Pesquisa:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Pesquise por "charizard" para ver os detalhes do Charizard e sua cadeia evolutiva.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Testes
+Para executar os testes, utilize o seguinte comando:
+npm test
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-- Esse `README.md` fornece uma visão geral do projeto e instruções claras para quem deseja utilizá-lo ou contribuir.
