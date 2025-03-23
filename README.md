@@ -16,6 +16,9 @@ Este é um aplicativo React simples que permite aos usuários pesquisar informa�
 - **index.js**: Ponto de entrada do aplicativo React.
 - **index.css**: Contém estilos globais para o aplicativo.
 
+![Tela inicial](assets/pokedex.png)
+
+
 ## Como Executar o Projeto
 
 1. **Clone o repositório**:
