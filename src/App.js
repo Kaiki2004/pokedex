@@ -62,7 +62,7 @@ function App() {
         <strong>Lista de Pokémons</strong>
       </header>
       {/* Caminho corrigido para exibir a imagem corretamente */}
-      <img src="/pokemon_images.webp" alt="Pokedex" />
+      {/*<img src="/pokemon_images.webp" alt="Pokedex" />*/}
       <div>
         <form onSubmit={handleSearch}>
           <input
